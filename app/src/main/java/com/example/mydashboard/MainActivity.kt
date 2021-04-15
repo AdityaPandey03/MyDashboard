@@ -8,11 +8,15 @@ import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
 
+
+    lateinit var ImageView:ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val ImageView = findViewById<ImageView>(R.id.profile)
+
+
+        ImageView = findViewById<ImageView>(R.id.profile)
         ImageView.setOnClickListener {
             val intent = Intent(this, profile::class.java)
             startActivity(intent)
@@ -25,6 +29,12 @@ class MainActivity : AppCompatActivity() {
             moveTaskToBack(true)
             android.os.Process.killProcess(android.os.Process.myPid())
             exitProcess(1)
+        }
+
+        ImageView= findViewById<ImageView>(R.id.setting)
+        ImageView.setOnClickListener {
+            val intent=Intent(this,setting::class.java)
+            startActivity(intent)
         }
 
 
