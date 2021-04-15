@@ -33,7 +33,7 @@
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/help"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:background="@color/black"
