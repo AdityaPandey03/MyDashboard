@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val TextView= findViewById<TextView>(R.id.exitbt)
-        TextView.setOnClickListener{
+        ImageView= findViewById<ImageView>(R.id.exit)
+        ImageView.setOnClickListener{
             moveTaskToBack(true)
             android.os.Process.killProcess(android.os.Process.myPid())
             exitProcess(1)

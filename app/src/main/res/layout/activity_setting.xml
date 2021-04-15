@@ -8,18 +8,18 @@
     android:background="@color/black"
     android:layout_height="match_parent">
 
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="220dp"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:text="Settings"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:fontFamily="sans-serif-black"
-        android:textColor="@color/black"
         android:background="@color/colorAccent"
-        android:textSize="40sp"
-        android:layout_marginTop="20dp"/>
-
+        android:fontFamily="sans-serif-black"
+        android:text="Settings"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -32,45 +32,46 @@
         android:textSize="25sp" />
 
 
-    <TextView
+    <Button
         android:id="@+id/button4"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/black"
         android:drawableLeft="@drawable/question"
         android:text="Help Center"
         android:layout_marginRight="50dp"
         android:fontFamily="sans-serif"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="22dp"
         android:textAllCaps="false"
         android:layout_marginTop="30dp" />
 
-    <TextView
-        android:id="@+id/button3"
+    <Button
+        android:id="@+id/rate"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/star"
-        android:text="  Rate Us"
+        android:text="Rate Us"
         android:fontFamily="sans-serif"
-        android:textColor="@color/black"
-        android:background="@color/white"
+        android:textColor="@color/white"
+
+        android:background="@color/black"
         android:textAllCaps="false"
         android:layout_marginTop="25dp"
         android:textSize="22dp" />
 
-    <TextView
+    <Button
         android:id="@+id/textView3"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/friend"
-        android:background="@color/white"
+        android:background="@color/black"
         android:fontFamily="sans-serif"
-        android:text="Invite a friend"
+        android:text="Invite friends"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="22dp"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="25dp"/>
 
 
 
