@@ -22,7 +22,6 @@ class setting : AppCompatActivity() {
 
 
 
-
         var Button=findViewById<Button>(R.id.rate)
 
         Button.setOnClickListener {

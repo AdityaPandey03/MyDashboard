@@ -6,5 +6,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#2d2d2d</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="blue">#3D93DD</color>
+    <color name="light_green">#93DDC6</color>
+    <color name="purple">#62324F</color>
+    <color name="light_purple">#E7BDD1</color>
+    <color name="light_gray">#677689</color>
+    <color name="cream">#F0E9BF</color>
+    <color name="light_white">#FAFAFA</color>
 
 </resources>

@@ -11,49 +11,41 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="170dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:background="@color/colorAccent"
-        android:fontFamily="sans-serif-black"
-        android:text="Settings"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
+        android:fontFamily="@font/bungeeregular"
+        android:layout_gravity="center"
+        android:text="SETTINGS"
+        android:textColor="@color/purple"
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="Account Action"
-        android:fontFamily="sans-serif-black"
-        android:textColor="@color/white"
-        android:layout_marginTop="100dp"
-        android:textSize="25sp" />
+
 
 
     <Button
         android:id="@+id/help"
-        android:layout_width="220dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:background="@color/black"
-        android:drawableLeft="@drawable/question"
+        android:drawableLeft="@drawable/ques"
         android:text="Help Center"
         android:layout_marginRight="50dp"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/light_white"
         android:textSize="22dp"
         android:textAllCaps="false"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="150dp" />
 
     <Button
         android:id="@+id/rate"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/star"
+        android:drawableLeft="@drawable/starm"
         android:text="Rate Us"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/light_white"
 
         android:background="@color/black"
         android:textAllCaps="false"
@@ -62,14 +54,14 @@
 
     <Button
         android:id="@+id/textView3"
-        android:layout_width="220dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/friend"
+        android:drawableLeft="@drawable/comm"
         android:background="@color/black"
-        android:fontFamily="sans-serif"
+        android:fontFamily="sans-serif-black"
         android:text="Invite friends"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/light_white"
         android:textSize="22dp"
         android:layout_marginTop="25dp"/>
 
