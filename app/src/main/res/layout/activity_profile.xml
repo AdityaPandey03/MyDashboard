@@ -25,7 +25,7 @@
             android:layout_centerVertical="true"/>
 
         <TextView
-            android:id="@+id/full_name"
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Random"
@@ -33,22 +33,11 @@
             android:fontFamily="@font/bungeeregular"
             android:layout_toRightOf="@+id/profile_image"
             android:layout_centerVertical="true"
-            android:textColor="@color/white"
+            android:textColor="@color/purple"
             android:includeFontPadding="false"
             android:layout_marginLeft="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Random_Bapu"
-            android:textSize="14sp"
-            android:fontFamily="sans-serif-black"
-            android:layout_toRightOf="@+id/profile_image"
-            android:layout_below="@+id/full_name"
-            android:textColor="@color/white"
-            android:includeFontPadding="false"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"/>
+
 
 
     </RelativeLayout>
@@ -57,14 +46,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Full Name"
+            android:hint="App Handle"
+
             app:hintTextColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColorHint="@color/purple"
             android:layout_marginBottom="5dp">
 
 
@@ -72,8 +63,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Random"
-                android:textColor="@color/white"
-                android:drawableLeft="@drawable/smallicon"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/light_white"
+                android:drawableLeft="@drawable/pr"
 
 
                 android:drawablePadding="5dp"/>
@@ -97,18 +89,18 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E-mail"
-            app:hintTextColor="@color/white"
-            android:textColorHint="@color/white"
+            android:hint="   E-mail"
+            android:textColorHint="@color/purple"
             android:layout_marginBottom="5dp">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="admin@randomgmail.com"
-                android:textColor="@color/white"
-                android:drawableLeft="@drawable/email"
+                android:text="  Admin@randomgmail.com"
+                android:textColor="@color/light_white"
+                android:fontFamily="sans-serif-black"
+                android:drawableLeft="@drawable/em"
                 android:drawablePadding="5dp"/>
 
 
@@ -130,17 +122,18 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Phone Number"
-            android:textColorHint="@color/white"
+            android:hint=" Phone Number"
+            android:textColorHint="@color/purple"
             android:layout_marginBottom="5dp">
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+91-9990009991"
-                android:textColor="@color/white"
-                android:drawableLeft="@drawable/phone"
+                android:text=" +91-9990009991"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/light_white"
+                android:drawableLeft="@drawable/ph"
 
                 android:drawablePadding="5dp"/>
 
@@ -160,38 +153,17 @@
         android:padding="5dp"
         android:orientation="vertical">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"
-            android:textColorHint="@color/white"
-            android:layout_marginBottom="5dp">
 
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="abc123456"
-
-                android:textColor="@color/white"
-                android:drawableLeft="@drawable/password"
-                android:drawablePadding="5dp"
-                android:layout_marginBottom="30dp"/>
-
-
-
-
-
-        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Update"
-            android:textColor="@color/colorAccent"
-            android:fontFamily="@font/bungeeregular"
+            android:textColor="@color/purple"
             android:background="@color/black"
-            android:textSize="25sp"/>
+            android:fontFamily="@font/bungeeregular"
+            android:textSize="25sp"
+            android:layout_marginTop="60dp"/>
 
 
     </LinearLayout>

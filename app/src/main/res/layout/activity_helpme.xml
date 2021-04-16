@@ -11,15 +11,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="280dp"
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:layout_marginRight="20dp"
-        android:background="@color/colorAccent"
         android:fontFamily="sans-serif-black"
-        android:text="Facing any Issue,"
+        android:text="  Facing any Issue,"
         android:layout_gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/purple"
         android:textSize="33sp"/>
 
     <TextView
@@ -29,22 +28,18 @@
         android:text="Drop a mail at"
         android:layout_gravity="center"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/white"
-        android:layout_marginTop="50dp"
+        android:textColor="@color/light_white"
+        android:layout_marginTop="60dp"
         android:textSize="30sp" />
 
 
     <TextView
-        android:id="@+id/button4"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:background="@color/black"
-
         android:text="theBugBots@gmail.com"
         android:layout_gravity="center"
-
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/white"
+        android:textColor="@color/light_white"
         android:textSize="25sp"
         android:textAllCaps="false"
         android:layout_marginTop="15dp" />
@@ -55,11 +50,11 @@
         android:layout_height="wrap_content"
         android:text="The Bug Bots"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/gray"
+        android:textColor="@color/purple"
         android:layout_gravity="center"
         android:textAllCaps="false"
-        android:layout_marginTop="180dp"
-        android:textSize="37dp" />
+        android:layout_marginTop="200dp"
+        android:textSize="38dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -67,9 +62,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="    Always at your Service"
-        android:drawableEnd="@drawable/namaste"
         android:textAllCaps="false"
-        android:textColor="@color/gray"
+        android:textColor="@color/purple"
         android:layout_gravity="center"
         android:textSize="28dp"
         android:layout_marginTop="15dp"/>
