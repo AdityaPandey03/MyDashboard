@@ -23,6 +23,12 @@ class setting : AppCompatActivity() {
             startActivity(inte)
         }
 
+        TextView = findViewById<TextView>(R.id.invite)
+        TextView.setOnClickListener {
+            val ie = Intent(this, invite::class.java)
+            startActivity(ie)
+        }
+
 
 
         TextView=findViewById<TextView>(R.id.rate)
