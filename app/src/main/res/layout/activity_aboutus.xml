@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".aboutus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="So, Who are the Bug Bots !?"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/yellow"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+        </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/helloji"
+            android:layout_width="400dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:scaleType="center"
+            android:layout_marginLeft="5dp"
+            app:lottie_fileName="hellow.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true">
+
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Something about our App"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/yellow"
+            android:textSize="22dp"
+            android:layout_marginBottom="0dp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bonjour! Losing a chat battle? This is the right place you have come across. Stickoworld is a platform where you can add stickers to your arsenal or create them.   "
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginBottom="0dp">
+
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Our Team"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/yellow"
+            android:textSize="22dp"
+            android:layout_marginBottom="0dp">
+
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text=" Bug Bots is a team of 3 noobs but with a common intent of learning something and exploring somthing new every day. So,with this belief we have started... "
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="16dp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Follow us on Instagram"
+            android:fontFamily="@font/bungeeregular"
+            android:textSize="18dp"
+            android:textColor="@color/yellow"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/instagram">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  pandey_adi26"
+            android:fontFamily="sans-serif"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/adi">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/bandary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  sohan24.py"
+            android:fontFamily="sans-serif"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/band">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ranjith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ranjithjupaka_1"
+            android:fontFamily="sans-serif"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ranj">
+
+        </TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

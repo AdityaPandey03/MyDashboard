@@ -134,7 +134,6 @@
                 android:fontFamily="sans-serif-black"
                 android:textColor="@color/light_white"
                 android:drawableLeft="@drawable/ph"
-
                 android:drawablePadding="5dp"/>
 
 
