@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     android:layout_height="match_parent"
 
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:padding="20dp"
-        android:background="@color/black">
+        android:background="@color/white">
 
 
 
@@ -33,7 +33,7 @@
             android:fontFamily="@font/bungeeregular"
             android:layout_toRightOf="@+id/profile_image"
             android:layout_centerVertical="true"
-            android:textColor="@color/purple"
+            android:textColor="@color/yellow"
             android:includeFontPadding="false"
             android:layout_marginLeft="10dp"/>
 
@@ -55,7 +55,7 @@
             android:hint="App Handle"
 
             app:hintTextColor="@color/white"
-            android:textColorHint="@color/purple"
+            android:textColorHint="@color/yellow"
             android:layout_marginBottom="5dp">
 
 
@@ -64,8 +64,8 @@
                 android:layout_height="wrap_content"
                 android:text="Random"
                 android:fontFamily="sans-serif-black"
-                android:textColor="@color/light_white"
-                android:drawableLeft="@drawable/pr"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/person"
 
 
                 android:drawablePadding="5dp"/>
@@ -90,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="   E-mail"
-            android:textColorHint="@color/purple"
+            android:textColorHint="@color/yellow"
             android:layout_marginBottom="5dp">
 
 
@@ -98,9 +98,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="  Admin@randomgmail.com"
-                android:textColor="@color/light_white"
+                android:textColor="@color/black"
                 android:fontFamily="sans-serif-black"
-                android:drawableLeft="@drawable/em"
+                android:drawableLeft="@drawable/khat"
                 android:drawablePadding="5dp"/>
 
 
@@ -123,7 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint=" Phone Number"
-            android:textColorHint="@color/purple"
+            android:textColorHint="@color/yellow"
             android:layout_marginBottom="5dp">
 
 
@@ -132,8 +132,8 @@
                 android:layout_height="wrap_content"
                 android:text=" +91-9990009991"
                 android:fontFamily="sans-serif-black"
-                android:textColor="@color/light_white"
-                android:drawableLeft="@drawable/ph"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/dialer"
                 android:drawablePadding="5dp"/>
 
 
@@ -158,9 +158,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Update"
-            android:textColor="@color/purple"
-            android:background="@color/black"
+            android:textColor="@color/yellow"
+            android:background="@color/white"
             android:fontFamily="@font/bungeeregular"
+            android:textColorHint="@color/yellow"
             android:textSize="25sp"
             android:layout_marginTop="60dp"/>
 
