@@ -90,13 +90,69 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="5dp"
-            android:text=" Bug Bots is a team of 3 noobs but with a common intent of learning something and exploring somthing new every day. So,with this belief we have started... "
+            android:text=" Bug Bots is a team of 3 noobs but with a common intent of learning something and exploring somthing new every day. We are currently in our first year pursuing our Bachelors of Technology degree from IIITM Gwalior."
             android:fontFamily="sans-serif-black"
             android:textColor="@color/black"
             android:textSize="16dp">
 
 
         </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Motivation to make this app"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/yellow"
+            android:textSize="22dp"
+            android:layout_marginBottom="0dp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="DAMN! These stickers are useful.. We got to know this once our virtual college life started. We believe stickers has a separate fan base amongst the youth. It is widely used,so we decided to make this app.">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Scope of Improvement"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/yellow"
+            android:textSize="22dp"
+            android:layout_marginBottom="0dp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Normally you won't find this title anywhere! But we feel that we have to be honest with ourselves at this stage. We majorly started working on this app because of Developer Society Club's Hackathon event. We didn't know that we would be investing so much of our time and energy into it, we ahve worked on this app day in and day out but still there are some loopholes which we need to address. We will provide users with all the options in the coming times. So don't get disheartened if you are not able to change your profile pic:) or share this app with your homies, this is just a step forward we will surely make this big with each passing day."
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginBottom="0dp">
+
+
+        </TextView>
+
 
         <TextView
             android:layout_width="wrap_content"
