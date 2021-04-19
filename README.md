@@ -35,9 +35,9 @@
 
 ### Contributors
 
-* Aditya Pandey
-* Bandary Sohan
-* Ranjith Jhupaka
+* [Aditya Pandey](https://github.com/AdityaPandey03 "Aditya Pandey")
+* [Bandary Sohan](https://github.com/sohan2410 "Bandary Sohan")
+* [Ranjith Jhupaka](https://github.com/ranjithcoder "Ranjith Jhupaka")
 
 ### Our LinkedIn Profile
 
