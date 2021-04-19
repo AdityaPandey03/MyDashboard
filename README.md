@@ -13,16 +13,16 @@
 * ### So this is our login screen.We have kept hassle free login,users can directly sign in from their Google accounts
 <img src="https://github.com/AdityaPandey03/MyDashboard/blob/801d2902e0175bc5a184a26dfc7a660d7e54a651/app/src/main/res/drawable/login.jpg" width="250" height="450"/>
 
-* ### This is our dashboard. You can easily switch activities from here.
+* ### This is our dashboard.You can easily switch activities from here.
 <img src="https://github.com/AdityaPandey03/MyDashboard/blob/9e384235a493674a57e64b6b9aaf72df4e22c070/app/src/main/res/drawable/dashboarda.jpg" width="250" height="450"/>
 
-* ### So, here is the fun place. You can view the stickers, add it your gallery and add it your google board too
+* ### So, here is the fun place.You can view the stickers, add it your gallery and add it your google board too
 <img src="https://github.com/AdityaPandey03/MyDashboard/blob/9e384235a493674a57e64b6b9aaf72df4e22c070/app/src/main/res/drawable/stickerrr.jpg" width="250" height="450"/>
 
-* ### This is the profile section. You can update your profile pic and choose a cool app handle name
+* ### This is the profile section.You can update your profile pic and choose a cool app handle name
 <img src="https://github.com/AdityaPandey03/MyDashboard/blob/9e384235a493674a57e64b6b9aaf72df4e22c070/app/src/main/res/drawable/profile.jpg" width="250" height="450"/>
 
-* ### This is the settings section. You have plenty of options there.
+* ### This is the settings section.You have plenty of options there.
 <img src="https://github.com/AdityaPandey03/MyDashboard/blob/9e384235a493674a57e64b6b9aaf72df4e22c070/app/src/main/res/drawable/settings.jpg" width="250" height="450"/>
 
 * #### You can then exit the app from dashboard directly.
