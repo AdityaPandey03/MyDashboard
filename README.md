@@ -1,6 +1,6 @@
-###### **Introduction to our app**
+# **Introduction to our app**
 
-What all can you do with this app?
+### What all can you do with this app?
 
 *Add these cool stickers to your google board
 *You can also add these stickers to your gallery and share them with your friends
