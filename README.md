@@ -47,7 +47,7 @@
 
 ### Video Representation of the App
 
-[Click here](https://googledrive.com/ "Click here")
+* [Click here](https://googledrive.com/ "Click here")
 
 
 
