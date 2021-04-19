@@ -10,7 +10,9 @@
 
 * We have used Kotlin to design the app 
 * This app is designed for android users
-* 
+<img src="https://github.com/AdityaPandey03/MyDashboard/blob/801d2902e0175bc5a184a26dfc7a660d7e54a651/app/src/main/res/drawable/login.jpg" width="270" height="400"/>
+* So this is our login screen.We have kept hassle free login,users can directly sign in from their Google accounts
+
 
 
 
