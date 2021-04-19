@@ -6,7 +6,11 @@
 * You can also add these stickers to your gallery and share them with your friends
 * You can create your own stickers and use them(Soon, we will add this feature  in our app)
 
-### **
+### **Functionality of the App**
+
+* We have used Kotlin to design the app 
+* This app is designed for android users
+* 
 
 
 
