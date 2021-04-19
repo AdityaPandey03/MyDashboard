@@ -1,4 +1,4 @@
-# ** Introduction to our app ** 
+# _Introduction to our app_
 
 ### What can you do with this app?
 
